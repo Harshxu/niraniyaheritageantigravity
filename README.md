@@ -1,16 +1,62 @@
-# React + Vite
+# 🗿 Niraniya Heritage — Cinematic Heritage Carvings Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React 19](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite)](https://vitejs.dev/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-EA4C89?logo=framer)](https://www.framer.com/motion/)
+[![React Router 7](https://img.shields.io/badge/React_Router-7-CA4245?logo=react-router)](https://reactrouter.com/)
 
-Currently, two official plugins are available:
+> A cinematic, interactive web experience showcasing the timeless hand-carved stonework of **Niraniya Heritage**. Featuring custom cursor physics, fire-ash particle simulations, immersive smooth routing, and museum-grade visual showcases.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **🔥 Fire & Ash Particle Canvas**: Dynamic visual particle effects simulating the sacred temple atmosphere.
+- **✨ Custom Premium Cursor**: Reactive physics-based custom cursor following user interactions.
+- **🎬 Cinematic Smooth Navigation**: Page transitions and section jumps orchestrated with Framer Motion and React Router 7.
+- **🏛️ Product Showcases**: High-definition presentations of Granite Shiva, Marble Buddha, Obsidian Ganesha, and Sandstone Carvings.
+- **📱 Fully Responsive**: Flawlessly adapts to ultra-wide desktop monitors, tablets, and smartphones.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗️ Architecture
+
+```mermaid
+graph TD
+    App[App.jsx / Router Context] --> Preloader[Cinematic Preloader]
+    App --> Cursor[Premium Physics Cursor]
+    App --> Particles[FireAsh Particle Canvas]
+    App --> Nav[Navigation Header]
+    App --> Pages[Page Router]
+    
+    Pages --> Home[Home Showcase]
+    Pages --> Showcase[Artifact Explorer]
+    Pages --> Gallery[Artisan Gallery]
+    Pages --> Enquiry[Client Enquiry Portal]
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: React 19
+- **Build Tool**: Vite 8
+- **Animations**: Framer Motion 12
+- **Routing**: React Router 7 (`react-router-dom`, `react-router-hash-link`)
+- **Icons**: Lucide React
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/Harshxu/niraniyaheritageantigravity.git
+cd niraniyaheritageantigravity
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
